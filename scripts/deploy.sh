@@ -1,3 +1,4 @@
+node ./scripts/incrementVersion
 git add .
-git commit -m 'AUTOMATIC DEVELOPMENT DEPLOYMENT'
+git commit -m 'AUTOMATED DEPLOYMENT'
 git push origin HEAD
