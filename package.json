@@ -1,0 +1,19 @@
+{
+  "name": "staticvoidhost",
+  "version": "0",
+  "description": "",
+  "main": "StaticVoidHost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brooswit/StaticVoidHost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brooswit/StaticVoidHost/issues"
+  },
+  "homepage": "https://github.com/brooswit/StaticVoidHost#readme"
+}
