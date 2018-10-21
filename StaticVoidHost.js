@@ -3,6 +3,8 @@ const enableWs = require('express-ws')
 const path = require('path')
 
 const SessionBehavior = require('./behaviors/SessionBehavior')
+const express = require('express')
+const enableWs = require('express-ws');
 const Element = require('./classes/Element')
 
 module.exports = class StaticVoidHost {
