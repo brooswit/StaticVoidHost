@@ -45,3 +45,4 @@ module.exports = class StaticVoidHost {
         elements[id] = new Element(id, behaviors, state)
     }
 }
+

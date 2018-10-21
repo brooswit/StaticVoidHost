@@ -1,10 +1,11 @@
 {
   "name": "staticvoidhost",
-  "version": "0",
+  "version": "0.0.0",
   "description": "",
   "main": "StaticVoidHost.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "bash ./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/brooswit/StaticVoidHost/issues"
   },
-  "homepage": "https://github.com/brooswit/StaticVoidHost#readme"
+  "homepage": "https://github.com/brooswit/StaticVoidHost#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "grunt-shell": "^2.1.0"
+  }
 }
