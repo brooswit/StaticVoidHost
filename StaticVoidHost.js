@@ -1,9 +1,10 @@
-const path = require('path')
-
-const SessionBehavior = require('./behaviors/SessionBehavior')
 const express = require('express')
 const enableWs = require('express-ws');
+const path = require('path')
+
 const Element = require('./classes/Element')
+
+const SessionBehavior = require('./behaviors/SessionBehavior')
 
 module.exports = class StaticVoidHost {
     constructor({syncThrottle, port}) {
