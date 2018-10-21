@@ -8,7 +8,7 @@ module.exports = class SessionBehavior extends Behavior {
         ws.on('message', (msg) => this.handleEvent(JSON.parse(msg)) )
         ws.on('close', () => this.destroy() )
 
-        (async()=>{
+        (async ()=>{
             let ping = 0
             while(true) {
                 let snapshot = await session.getSnapshot({ping}) || {ping}
