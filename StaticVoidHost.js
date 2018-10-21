@@ -1,5 +1,3 @@
-const express = require('express')
-const enableWs = require('express-ws')
 const path = require('path')
 
 const SessionBehavior = require('./behaviors/SessionBehavior')
