@@ -7,9 +7,9 @@ const Element = require('./classes/Element')
 const SessionBehavior = require('./behaviors/SessionBehavior')
 
 module.exports = class StaticVoidHost {
-    constructor({syncThrottle = 1000/3, port = 8080}) {
-        this._port = process.env.PORT || port
-        this._syncThrottle = syncThrottle
+    constructor(options) {
+        this._port = process.env.PORT || options.port || 8080
+        this._syncThrottle = syncThrottle || 1000/3
 
         this._nextElementId = 0
         this._elements = []
